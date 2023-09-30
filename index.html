@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Profile</h1>
+            <ul class="nav_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button>Sign Out</button></li>
+            </ul>
+        </div>
+        <div class="container2">
+            <div class="left_column">
+                
+                <div class="user_card">
+                    
+                    <div class="header">
+                    </div>
+                    <div class="pic">
+                        <img src="icons/My_photo.jpg" class="newpic" alt="My_photo">
+                    </div>
+                    <div class="info">
+                        <h1 id="user_name">Motaz Hassis</h1>
+                        <div class="location">
+                            <img src="icons/icon1.png" class="icon" alt="location icon">
+                            <label>Jenin-Palestine</label>
+                        </div>
+                        <p>
+                            Civil Engineer|Full Stack Developer
+                        </p>
+                        <p>
+                            Email: mo3taz_hassis@yahoo.com
+                        </p>
+                        <div class="edit">
+                            <img src="icons/icon2.png" class="icon" alt="setting icon">
+                            <a href="#" onclick="Change_name()">edit profile</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="desctiption">
+                    <div class="header1">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="des_content">
+                        <h2>Civil Engineer || Full Stack Developer</h2>
+                        <p class="period">Dec 2019 - March 2020 </p>
+                        <p>Looking for a challenging opportunity to gain meaningful employment with an organization that will allow personal and professional growth without limiting the opportunity for further enlightenment and enhanced edification.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="right_column">
+                
+                <div class="requests">
+                    <div class="header2">
+                        <label class="req_no">2</label>
+                        <h2>Connection requests</h2>
+                    </div>
+                    <div class="req.content"></div>
+                        <p class="row2">
+                            <img src="images/todd-s.jpg" class="photo1" alt="Todd photo">
+                            <label>Todd E</label>
+                            <img src="icons/accept-circle.png" onclick="acc_remove1(this)" class="sign" alt="sign1">
+                            <img src="icons/close-circle.png" onclick="close_remove1()" class="sign" alt="sign2">
+                        </p>
+                        <p class="row3">
+                            <img src="images/phil-s.jpg" class="photo1" alt="phil photo">
+                            <label>Phil K</label>
+                            <img src="icons/accept-circle.png" onclick="acc_remove2()" class="sign" alt="sign1">
+                            <img src="icons/close-circle.png" onclick="close_remove2()" class="sign" alt="sign2"> 
+                        </p>
+                </div>
+                <div class="your_connections">
+                    <div class="header3">
+                        <label class="con_no">418</label>
+                        <h2>Your Connections</h2>
+
+                    </div>
+                    <div class="content_connections">
+                        <p class="row1">
+                            <img src="images/adrien-s.jpg" class="photo1" alt="adrien photo">
+                            <label>Adrian D</label>
+                        </p>
+                        <p class="row1">
+                            <img src="images/anne-s.jpg" class="photo1" alt="anne photo">
+                            <label>Anne J</label>
+                        </p>
+                        <p class="row1">
+                            <img src="images/alayne-s.jpg" class="photo1" alt="alayne photo">
+                            <label>Alayne T</label>
+                        </p>
+                        <p class="row1">
+                            <img src="images/arry-s.jpg" class="photo1" alt="arry photo">
+                            <label>Arry Y</label>
+                        </p>
+                        <p class="veiw_more">
+                            <a href="#">Veiw More</a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
